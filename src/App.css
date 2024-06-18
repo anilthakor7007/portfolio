@@ -600,3 +600,29 @@ li span{
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+
+
+/* responsiveness */
+@media (max-width: 768px) {
+  nav.navbar {
+    padding: 8px 0;
+  
+  }
+  .ph .nav.nav-pills .nav-link {
+  font-size: 10px;
+}
+
+.social-icon a{
+  width: 30px;
+  height: 30px;
+}
+button.vvd{
+padding: 10px 8px;
+font-size: 12px;
+  
+}
+
+
+
+
+}

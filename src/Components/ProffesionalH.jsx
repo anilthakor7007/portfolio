@@ -66,7 +66,7 @@ export const ProfessionalH = () => {
         <Row>
           <Col>
             <h2>Professional highlights</h2>
-            <p className="summary">
+            <p className="summary ">
              Short Summary of my Professional Journey
             </p>
             <TabContainer id="projects-tabs" defaultActiveKey="first">

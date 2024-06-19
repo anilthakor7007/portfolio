@@ -29,8 +29,8 @@ export const NavBar = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/public/AnilResume.pdf';
-    link.download = 'AnilResume.pdf';
+    link.href = '/AnilResume.pdf';
+    link.download = '/AnilResume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

@@ -516,6 +516,11 @@ li span{
   letter-spacing: 0.8px;
   transition: 0.3s ease-in-out;
 }
+#fixedTextarea { 
+  width: 100%;
+  resize: none; 
+  overflow: auto; 
+}
 .contact form input:focus, .contact form textarea:focus {
   background: rgba(255, 255, 255, 1);
   color: #121212;
@@ -539,6 +544,9 @@ li span{
   border-radius: 0;
   position: relative;
   transition: 0.3s ease-in-out;
+}
+div.col{
+  padding:0px 2.5px;
 }
 .contact form button span {
   z-index: 1;
@@ -620,6 +628,10 @@ button.vvd{
 padding: 10px 8px;
 font-size: 12px;
   
+}
+div.col{
+  width: 100%;
+ 
 }
 
 

@@ -97,7 +97,7 @@ export const Contact = () => {
                                 </Col>
                                 <Col>
                                     <textarea
-                                        className=""
+                                        id="fixedTextarea"
                                         rows={6}
                                         value={formDetails.message}
                                         placeholder="Message"

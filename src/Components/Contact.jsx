@@ -61,7 +61,7 @@ export const Contact = () => {
                     </Col>
                     <Col md={6}>
                         <h2>Get In Touch</h2>
-                        <form onSubmit={handleSubmit}>
+                        <form onSubmit={handleSubmit} >
                             <Row>
                                 <Col sm={6} className="px-1">
                                     <input

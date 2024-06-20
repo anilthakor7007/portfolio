@@ -5,14 +5,12 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
+console.log('EMAIL_USER:', process.env.EMAIL_USER);
+console.log('EMAIL_PASS:', process.env.EMAIL_PASS);
+
 const app = express();
 app.use(cors());
 app.use(express.json());
-
-const router = express.Router();
-app.use("/", router);
-
-app.listen(5000, () => console.log("Server is running on port 5000"));
 
 const contactEmail = nodemailer.createTransport({
     service: 'gmail',
@@ -24,17 +22,17 @@ const contactEmail = nodemailer.createTransport({
 
 contactEmail.verify((error) => {
     if (error) {
-        console.log(error);
+        console.log('Error verifying email configuration:', error);
     } else {
         console.log('Ready to send');
     }
 });
 
-router.post("/contact", (req, res) => {
+app.post("/Contact", (req, res) => {
     const { firstName, lastName, email, message, phone } = req.body;
     const name = `${firstName} ${lastName}`;
     const mail = {
-        from: process.env.EMAIL_USER,
+        from: name,
         to: process.env.EMAIL_USER,
         subject: "Contact Form Submission - Portfolio",
         html: `
@@ -47,10 +45,12 @@ router.post("/contact", (req, res) => {
 
     contactEmail.sendMail(mail, (error) => {
         if (error) {
-            console.error("Error sending email:", error);
-            res.status(500).json({ message: "Internal Server Error" });
+            console.log('Error sending email:', error);
+            res.status(500).json({ error: "Internal Server Error" });
         } else {
-            res.status(200).json({ message: "Message Sent" });
+            res.status(200).json({ code: 200, status: "Message Sent" });
         }
     });
 });
+
+app.listen(5000, () => console.log("Server is running on port 5000"));

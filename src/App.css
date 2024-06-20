@@ -374,8 +374,14 @@ li span{
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  text-align: center;
-  width: 80%;
+  text-align: justify;
+ 
+}
+.ph h6{
+  
+  text-align: center !important;
+  color: #B8B8B8;
+ 
 }
 .ph .nav.nav-pills {
   width: 72%;
@@ -612,9 +618,17 @@ div.col{
 
 /* responsiveness */
 @media (max-width: 768px) {
+
   nav.navbar {
     padding: 8px 0;
+    text-align: justify;
   
+  }
+  .navbar>.container{
+    justify-content: space-around;
+  }
+  nav a .logoImage{
+    width:100%;
   }
   .ph .nav.nav-pills .nav-link {
   font-size: 10px;
@@ -633,8 +647,11 @@ div.col{
   width: 100%;
  
 }
-
-
+.ph p {
+  
+  text-align: justify;
+ 
+}
 
 
 }

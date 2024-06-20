@@ -25,7 +25,7 @@ export const ProfessionalH = () => {
     {
       title: "Portfolio Website",
       description: "Tech stack: HTML, CSS, REACTJS, React Bootstrap",
-      Link: `https://netflix-cloneproject-2ye554ntt-anil-thakors-projects.vercel.app/`,
+      Link: `https://portfolio-delta-virid-14.vercel.app/`,
       imgUrl: projectImg1,
     },
     {
@@ -66,9 +66,9 @@ export const ProfessionalH = () => {
         <Row>
           <Col>
             <h2>Professional highlights</h2>
-            <p className="summary ">
+            <h6 className="summary ">
              Short Summary of my Professional Journey
-            </p>
+            </h6>
             <TabContainer id="projects-tabs" defaultActiveKey="first">
               <Nav
                 variant="pills"

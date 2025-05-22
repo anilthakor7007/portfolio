@@ -17,10 +17,6 @@ import projectImg5 from "../assets/img/projectImg5.png";
 import projectImg6 from "../assets/img/projectImg6.png";
 
 export const ProfessionalH = () => {
-
- 
-
-
   const projects = [
     {
       title: "Portfolio Website",
@@ -67,7 +63,7 @@ export const ProfessionalH = () => {
           <Col>
             <h2>Professional highlights</h2>
             <h6 className="summary ">
-             Short Summary of my Professional Journey
+              Short Summary of my Professional Journey
             </h6>
             <TabContainer id="projects-tabs" defaultActiveKey="first">
               <Nav
@@ -96,8 +92,28 @@ export const ProfessionalH = () => {
                 </TabPane>
                 <TabPane eventKey="second">
                   <h4>
-                    1) Office Assistant At Physical Research Laboratory (28 Aug
-                    2023 - Present){" "}
+                    1) Jounior Full-stack Developer - Webcreta Technologies (
+                    July 2024 - Present ){" "}
+                  </h4>
+
+                  <p className="text-start">
+                    Actively involved in building and maintaining full-stack web
+                    applications using the MERN stack. Worked on live client
+                    projects, developing dynamic user interfaces with React.js,
+                    Next.js, TypeScript, and Tailwind CSS. Built secure REST
+                    APIs using Node.js and Express, and managed data with
+                    MongoDB. Collaborated closely with senior developers to
+                    implement real-world features, fix bugs, and optimize
+                    performance. Contributed to Git-based workflows,
+                    participated in daily standups, and gained hands-on
+                    experience in deploying and maintaining production-ready
+                    applications.
+                  </p>
+                </TabPane>
+                <TabPane eventKey="second">
+                  <h4>
+                    2) Office Assistant - Physical Research Laboratory ( Aug
+                    2023 - July 2024 ){" "}
                   </h4>
 
                   <p className="text-start">
@@ -114,7 +130,7 @@ export const ProfessionalH = () => {
                 <TabPane eventKey="third">
                   <h4>
                     1) First Rank in Post Graduate Diploma in Computer
-                    Application (Gujarat Vidyapith -2023)
+                    Application ( Gujarat Vidyapith - 2023 )
                   </h4>
                   <p className="text-start">
                     Achieving First Rank in the program, I had the opportunity

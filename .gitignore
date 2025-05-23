@@ -24,4 +24,8 @@ dist-ssr
 *.sw?
 
 *.env
+<<<<<<< HEAD
 google-service-account.json
+=======
+google.service-account.json
+>>>>>>> 9a24832 (package issue sollved)

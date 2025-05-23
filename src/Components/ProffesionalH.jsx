@@ -92,7 +92,7 @@ export const ProfessionalH = () => {
                 </TabPane>
                 <TabPane eventKey="second">
                   <h4>
-                    1) Jounior Full-stack Developer - Webcreta Technologies (
+                    1) Junior Full-stack Developer - Webcreta Technologies (
                     July 2024 - Present ){" "}
                   </h4>
 

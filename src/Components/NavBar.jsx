@@ -36,7 +36,7 @@ export const NavBar = () => {
     document.body.removeChild(link);
   }
   return (
-    <Navbar expand="lg" className={scrolled ? "scrolled" : ''}>
+    <Navbar  expand="lg" className={scrolled ? "scrolled" : ''}>
       <Container>
         <Navbar.Brand href="#home">
           <img className="logoImage" src={anilive} alt="Logo" />

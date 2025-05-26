@@ -1,8 +1,31 @@
-# React + Vite
+# Animated Portfolio with AI Assistant – Aira
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my interactive portfolio website, built using **React**, **React Bootstrap**, **HTML**, **CSS**, and **JavaScript**. This project is not just a showcase of my full-stack development skills—it's powered by a built AI assistant named **Aira** that elevates the user experience.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+
+[🔗 Visit the Live Site](https://your-portfolio-url.com)
+
+
+## 🧠 Meet Aira – Your Personal AI Guide
+
+Aira is an AI-powered assistant integrated directly into the portfolio to:
+
+* 💬 Answer questions about my professional journey, skills, and projects.
+
+
+## 🛠️ Tech Stack
+
+* **Frontend**: React, React Bootstrap, JavaScript, HTML, CSS
+* **AI Assistant**: Botpress Ai agent
+* **Deployment**: Vercel 
+
+## 📂 Features
+
+* ⚡ Smooth, modern animations
+* 📱 Fully responsive design
+* 🤖 AI-powered assistant for user interaction
+* 🧩 Modular and scalable component architecture
+* 🧠 Smart assistant that enhances engagement
+

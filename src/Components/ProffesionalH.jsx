@@ -15,20 +15,48 @@ import projectImg3 from "../assets/img/projectImg3.png";
 import projectImg4 from "../assets/img/projectImg4.png";
 import projectImg5 from "../assets/img/projectImg5.png";
 import projectImg6 from "../assets/img/projectImg6.png";
+import nsarnaAdmin from "../assets/img/nasarnaAdmin2.png";
+import chitChat from "../assets/img/ChatApp.png";
+import contact from "../assets/img/Contact3.png";
+import ProjectCardSlider from "./ProjectCardSlider";
 
 export const ProfessionalH = () => {
   const projects = [
     {
-      title: "Portfolio Website",
-      description: "Tech stack: HTML, CSS, REACTJS, React Bootstrap",
+      title: "Portfolio Website-With AI Assistant",
+      description: "Tech stack: HTML, CSS, REACTJS, React Bootstrap, ChatBOT",
       Link: `https://portfolio-delta-virid-14.vercel.app/`,
       imgUrl: projectImg1,
+    },       {
+      title: "Nasarna Donation Admin Dashboard",
+      description: "Tech stack: ReactJs, Tailwind CSS, Redux Toolkit/Context API",
+      Link: `https://nasarna-helping-hand-donation-trust.vercel.app/auth/login`,
+      imgUrl: nsarnaAdmin,
     },
+     {
+      title: "Nasarna Donation Website",
+      description: "Tech stack: ReactJs, Tailwind CSS, Redux Toolkit",
+      Link: `https://nasarna-donation-website.vercel.app/`,
+      imgUrl: projectImg1,  
+    },
+    {
+      title: "Chit-Chat Realtime Chat Application",
+      description: "Tech stack: ReactJs, Tailwind CSS, Socket.io, Node.js, Express.js, MongoDB",
+      Link: `https://chitchat-fullstack-app.onrender.com/`,
+      imgUrl: chitChat,  
+    },
+  
     {
       title: "Simon Says Game!",
       description: "Tech stack: HTML, CSS and Javascript",
       Link: `https://simon-says-game-khaki.vercel.app/`,
       imgUrl: projectImg2,
+    },
+    {
+      title: "Contactly a Fullstack Contact Management App",
+      description: "Tech stack: ReactJs, Tailwind CSS, Redux Toolkit, Node.js, Express.js, MongoDB",
+      Link: `https://contactly-frontend.vercel.app/`,
+      imgUrl: contact,
     },
     {
       title: "Spotify Streaming Platform",
@@ -55,6 +83,7 @@ export const ProfessionalH = () => {
       imgUrl: projectImg6,
     },
   ];
+
 
   return (
     <div className="ph" id="ph">
@@ -84,11 +113,7 @@ export const ProfessionalH = () => {
               </Nav>
               <TabContent>
                 <TabPane eventKey="first">
-                  <Row>
-                    {projects.map((project, index) => (
-                      <ProjectCard key={index} {...project} />
-                    ))}
-                  </Row>
+                  <ProjectCardSlider projects={projects} />
                 </TabPane>
                 <TabPane eventKey="second">
                   <h4>

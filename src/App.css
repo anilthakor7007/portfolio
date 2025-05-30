@@ -244,7 +244,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /*banner styling*/
 .banner {
   margin-top: 0;
-  padding: 250px 0px 100px 0;
+  padding: 202px 0px 100px 0;
   background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
@@ -619,6 +619,25 @@ div.col{
 /* responsiveness */
 @media (max-width: 768px) {
 
+  .skill{
+    padding: 0px;
+  }
+  .banner {
+    padding: 100px 0 80px 0;
+  }
+  .banner h1 {
+    font-size: 33px;
+  }
+  .banner p {
+    text-align: justify;
+  }
+  .skill-bx {
+    padding: 13px;
+  
+  }
+  .list li{
+    text-align: left;
+  }
   nav.navbar {
     padding: 8px 0;
     text-align: justify;
@@ -626,12 +645,18 @@ div.col{
   }
   .navbar>.container{
     justify-content: space-around;
+    background: black;
   }
   nav a .logoImage{
     width:100%;
   }
   .ph .nav.nav-pills .nav-link {
-  font-size: 10px;
+  font-size: 14px;
+      width: 100%;
+
+}
+.ph .nav.nav-pills {
+  width: 100%;
 }
 
 .social-icon a{
@@ -646,6 +671,9 @@ font-size: 12px;
 div.col{
   width: 100%;
  
+}
+.ph{
+  padding: 40px 0;
 }
 .ph p {
   

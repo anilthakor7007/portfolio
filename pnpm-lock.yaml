@@ -11,12 +11,6 @@ importers:
       '@botpress/webchat':
         specifier: ^2.6.2
         version: 2.6.2(@babel/core@7.27.1)(@types/react-dom@18.3.7(@types/react@18.3.22))(@types/react@18.3.22)(redux@5.0.1)
-      '@splinetool/react-spline':
-        specifier: ^4.0.0
-        version: 4.0.0(@splinetool/runtime@1.10.16)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@splinetool/runtime':
-        specifier: ^1.10.16
-        version: 1.10.16
       bootstrap:
         specifier: ^5.3.3
         version: 5.3.6(@popperjs/core@2.11.8)
@@ -855,20 +849,6 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@splinetool/react-spline@4.0.0':
-    resolution: {integrity: sha512-FqrV7/K2q998Y0t83QUauQxsifKWAg9CFZoSb64qRuH7IfHkDs5/OgU1ACkg0aTgsEPtFlH+kATQ+8X6MrizHQ==}
-    peerDependencies:
-      '@splinetool/runtime': '*'
-      next: '>=14.2.0'
-      react: '*'
-      react-dom: '*'
-    peerDependenciesMeta:
-      next:
-        optional: true
-
-  '@splinetool/runtime@1.10.16':
-    resolution: {integrity: sha512-K99owdek6hRx6s/qE/UBc7v76mzPQ9JTnHtkGgHl6EJkmjQ/gCoDLJFsfJ2Y1p0We9hBghecCoixPbAQIx8THg==}
-
   '@swc/helpers@0.5.17':
     resolution: {integrity: sha512-5IKx/Y13RsYd+sauPb2x+U/xZikHjolzfuDgTAl/Tdf3Q8rslRvC19NKDLgAJQ6wsqADk10ntlv08nPFw/gO/A==}
 
@@ -1067,9 +1047,6 @@ packages:
 
   bignumber.js@9.3.0:
     resolution: {integrity: sha512-EM7aMFTXbptt/wZdMlBv2t8IViwQL+h6SLHosp8Yf0dqJMTnY6iL32opnAB6kAdL0SZPuvcAzFr31o0c/R3/RA==}
-
-  blurhash@2.0.5:
-    resolution: {integrity: sha512-cRygWd7kGBQO3VEhPiTgq4Wc43ctsM+o46urrmPOiuAe+07fzlSB9OJVdpgDL0jPqXUVQ9ht7aq7kxOeJHRK+w==}
 
   body-parser@1.20.3:
     resolution: {integrity: sha512-7rAxByjUMqQ3/bHJy7D6OGXvx/MMc4IqBn/X0fcM1QUcAItpZrBEYhWGem+tzXH90c+G01ypMcYJBO9Y30203g==}
@@ -1936,9 +1913,6 @@ packages:
     resolution: {integrity: sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==}
     engines: {node: '>=10'}
 
-  lodash.debounce@4.0.8:
-    resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==}
-
   lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
 
@@ -2275,10 +2249,6 @@ packages:
     resolution: {integrity: sha512-gXah6aZrcUxjWg2zR2MwouP2eHlCBzdV4pygudehaKXSGW4v2AsRQUK+lwwXhii6KFZcunEnmSUoYp5CXibxtA==}
     engines: {node: '>= 0.4'}
 
-  on-change@4.0.2:
-    resolution: {integrity: sha512-cMtCyuJmTx/bg2HCpHo3ZLeF7FZnBOapLqZHr2AlLeJ5Ul0Zu2mUJJz051Fdwu/Et2YW04ZD+TtU+gVy0ACNCA==}
-    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
-
   on-finished@2.4.1:
     resolution: {integrity: sha512-oVlzkg3ENAhCk2zdv7IJwd/QUD4z2RxRwpkcGY8psCVcCYZNq4wYnVWALHM+brtuJjePWiYF/ClmuDr8Ch5+kg==}
     engines: {node: '>= 0.8'}
@@ -2444,9 +2414,6 @@ packages:
       '@types/react': '>=18'
       react: '>=18'
 
-  react-merge-refs@2.1.1:
-    resolution: {integrity: sha512-jLQXJ/URln51zskhgppGJ2ub7b2WFKGq3cl3NYKtlHoTG+dN2q7EzWrn3hN3EgPsTMvpR9tpq5ijdp7YwFZkag==}
-
   react-multi-carousel@2.8.6:
     resolution: {integrity: sha512-sAX5I9Xec3MR9FxLgZYcYqNnY8M8zJxRRwRipMPtuh4BGvcvoptJfX8Z6nRn0ROMkqVO72iAmb83GlqmSW4Gqw==}
     engines: {node: '>=8'}
@@ -2604,9 +2571,6 @@ packages:
   screenfull@5.2.0:
     resolution: {integrity: sha512-9BakfsO2aUQN2K9Fdbj87RJIEZ82Q9IGim7FqM5OsebfoFC6ZHXgDq/KvniuLTPdeM8wY2o6Dj3WQ7KeQCj3cA==}
     engines: {node: '>=0.10.0'}
-
-  semver-compare@1.0.0:
-    resolution: {integrity: sha512-YM3/ITh2MJ5MtzaM429anh+x2jiLVjqILF4m4oyQB18W7Ggea7BfqdH/wGMK7dDiMghv/6WG7znWMwUDzJiXow==}
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
@@ -2767,9 +2731,6 @@ packages:
   throttle-debounce@3.0.1:
     resolution: {integrity: sha512-dTEWWNu6JmeVXY0ZYoPuH5cRIwc0MeGbJwah9KUNYSJwommQpCzTySTpEe8Gs1J23aeWEuAobe4Ag7EHVt/LOg==}
     engines: {node: '>=10'}
-
-  thumbhash@0.1.1:
-    resolution: {integrity: sha512-kH5pKeIIBPQXAOni2AiY/Cu/NKdkFREdpH+TLdM0g6WA7RriCv0kPLgP731ady67MhTAqrVG/4mnEeibVuCJcg==}
 
   toggle-selection@1.0.6:
     resolution: {integrity: sha512-BiZS+C1OS8g/q2RRbJmy59xpyghNBqrr6k5L/uKBGRsTfxmu3ffiRnd8mlGPUVayg8pvfi5urfnu8TU7DVOkLQ==}
@@ -3807,21 +3768,6 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.41.0':
     optional: true
 
-  '@splinetool/react-spline@4.0.0(@splinetool/runtime@1.10.16)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-    dependencies:
-      '@splinetool/runtime': 1.10.16
-      blurhash: 2.0.5
-      lodash.debounce: 4.0.8
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-merge-refs: 2.1.1
-      thumbhash: 0.1.1
-
-  '@splinetool/runtime@1.10.16':
-    dependencies:
-      on-change: 4.0.2
-      semver-compare: 1.0.0
-
   '@swc/helpers@0.5.17':
     dependencies:
       tslib: 2.8.1
@@ -4050,8 +3996,6 @@ snapshots:
   base64-js@1.5.1: {}
 
   bignumber.js@9.3.0: {}
-
-  blurhash@2.0.5: {}
 
   body-parser@1.20.3:
     dependencies:
@@ -5142,8 +5086,6 @@ snapshots:
     dependencies:
       p-locate: 5.0.0
 
-  lodash.debounce@4.0.8: {}
-
   lodash.merge@4.6.2: {}
 
   longest-streak@3.1.0: {}
@@ -5607,8 +5549,6 @@ snapshots:
       define-properties: 1.2.1
       es-object-atoms: 1.1.1
 
-  on-change@4.0.2: {}
-
   on-finished@2.4.1:
     dependencies:
       ee-first: 1.1.1
@@ -5799,8 +5739,6 @@ snapshots:
       vfile: 6.0.3
     transitivePeerDependencies:
       - supports-color
-
-  react-merge-refs@2.1.1: {}
 
   react-multi-carousel@2.8.6:
     dependencies:
@@ -6044,8 +5982,6 @@ snapshots:
 
   screenfull@5.2.0: {}
 
-  semver-compare@1.0.0: {}
-
   semver@6.3.1: {}
 
   send@0.19.0:
@@ -6251,8 +6187,6 @@ snapshots:
   theme-colors@0.1.0: {}
 
   throttle-debounce@3.0.1: {}
-
-  thumbhash@0.1.1: {}
 
   toggle-selection@1.0.6: {}
 

@@ -18,7 +18,7 @@ function App() {
         position="bottom-center"
         toastOptions={{
           style: {
-            zIndex: 9999, 
+            zIndex: 9999, // 👈 Make this high enough
           },
         }}
       />

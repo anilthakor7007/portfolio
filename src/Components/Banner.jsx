@@ -1,7 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
-import Spline from '@splinetool/react-spline';
 
 export const Banner = () => {
   const contactHandle = () => {
@@ -32,17 +31,12 @@ export const Banner = () => {
               let's Connect <ArrowRightCircle size={25}></ArrowRightCircle>
             </button>
           </Col>
-        <Col xs={12} md={6} xl={5} className="d-flex justify-content-center align-items-center" style={{ height: '100%' }}>
-  <div style={{ width: '100%', height: '500px' }}>
-    <Spline scene="https://prod.spline.design/XSlUqIphazDKHPDM/scene.splinecode" />
-  </div>
-</Col>
-
+          <Col xs={12} md={6} xl={5}>
+            <img src={headerImg} alt="header image" />
+          </Col>
         </Row>
       </Container>
     </section>
   );
 };
-
-
 

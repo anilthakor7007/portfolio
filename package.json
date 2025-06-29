@@ -9,12 +9,10 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start": "node Server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "@botpress/webchat": "^2.6.2",
-    "@splinetool/react-spline": "^4.0.0",
-    "@splinetool/runtime": "^1.10.16",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "cors": "^2.8.5",

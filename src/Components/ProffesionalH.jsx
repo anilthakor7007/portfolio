@@ -16,7 +16,6 @@ import projectImg4 from "../assets/img/projectImg4.png";
 import projectImg5 from "../assets/img/projectImg5.png";
 import projectImg6 from "../assets/img/projectImg6.png";
 import nsarnaAdmin from "../assets/img/nasarnaAdmin2.png";
-import nsarnaDonation from "../assets/img/nasarna_front.png";
 import chitChat from "../assets/img/ChatApp.png";
 import contact from "../assets/img/Contact3.png";
 import ProjectCardSlider from "./ProjectCardSlider";
@@ -38,7 +37,7 @@ export const ProfessionalH = () => {
       title: "Nasarna Donation Website",
       description: "Tech stack: ReactJs, Tailwind CSS, Redux Toolkit",
       Link: `https://nasarna-donation-website.vercel.app/`,
-      imgUrl: nsarnaDonation,  
+      imgUrl: projectImg1,  
     },
     {
       title: "Chit-Chat Realtime Chat Application",

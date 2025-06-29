@@ -1,22 +1,54 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="/src/assets/img/favicon.ico" type="image/x-icon">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anil Thakor Portfolio</title>
-    
+
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
 
 
-<script src="https://cdn.botpress.cloud/webchat/v2.5/inject.js"></script>
-<script src="https://files.bpcontent.cloud/2025/05/23/07/20250523072319-TBRZB0QL.js"></script>
-    
-    
-  </body>
-</html>
 
+    <script src="https://cdn.botpress.cloud/webchat/v2.5/inject.js"></script>
+    <!-- Chatbot prompt banner -->
+    <div id="chatbot-banner"
+      style="position:fixed;bottom:1.5rem;right:6rem;color:#ffffff;border-radius:9999px;box-shadow:0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -4px rgba(0,0,0,0.1);padding:0.75rem 1.5rem;display:flex;align-items:center;z-index:9999;font-family:sans-serif;cursor:pointer;transition:opacity 0.3s;animation:bounce 1s infinite;gap:0.75rem;">
+      <span style="font-weight:600;font-size:1rem;animation:pulse 2s infinite;display:flex;align-items:center;gap:0.5em;">
+        <span style="display:inline-block;animation:wave-hand 1.5s infinite;transform-origin:70% 70%;font-size:1.2em;">👋</span>
+        Ask anything about Anil Sir!
+      </span>
+      <!-- You can add an animated icon here if desired -->
+    </div>
+    <style>
+      @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.5; }
+      }
+      @keyframes wave-hand {
+        0% { transform: rotate(0deg); }
+        10% { transform: rotate(14deg); }
+        20% { transform: rotate(-8deg); }
+        30% { transform: rotate(14deg); }
+        40% { transform: rotate(-4deg); }
+        50% { transform: rotate(10deg); }
+        60% { transform: rotate(0deg); }
+        100% { transform: rotate(0deg); }
+      }
+    </style>
+
+
+    <script src="https://files.bpcontent.cloud/2025/05/23/07/20250523072319-TBRZB0QL.js"></script>
+  </body>
+
+</html>

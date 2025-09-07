@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Container, Row, Col, Spinner } from "react-bootstrap";
 import contactImg from "../assets/img/contactImg.svg";
 import { toast } from "react-hot-toast";

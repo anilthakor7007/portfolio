@@ -162,12 +162,13 @@ span.navbar-text {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
-  padding: 18px 34px;
+  padding: 14px 24px;
   font-size: 18px;
   margin-left: 18px;
 	position: relative;
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
+  /* border-radius: 10px; */
 }
 .navbar-text button span {
   z-index: 1;
@@ -245,7 +246,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 202px 0px 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  /* background-image: url('./assets/img/banner-bg.png'); */
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -667,6 +668,8 @@ div.col{
 button.vvd{
 padding: 10px 8px;
 font-size: 12px;
+
+
   
 }
 div.col{

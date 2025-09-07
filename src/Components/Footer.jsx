@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap"
 import github from "../assets/img/github.svg";
 import linkedin from "../assets/img/linkedin.svg";

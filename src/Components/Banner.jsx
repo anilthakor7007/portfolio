@@ -1,9 +1,8 @@
-import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
 import Spline from '@splinetool/react-spline';
-
+import React from "react";
 
 export const Banner = () => {
   const contactHandle = () => {
@@ -16,30 +15,11 @@ export const Banner = () => {
   };
   return (
     <section className="banner" id="home">
-    
-
-
-
       <Container className="">
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <span className="tagline" style={{ color: "#fff" }}>Welcome to my portfolio</span>
             <h1 style={{ color: "#fff" }}>{`Hi! I'm Anil Thakor`} </h1>
-            <div style={{position: 'relative', height: '10px' , alignItems: 'left', display: 'flex', justifyContent: 'center'}}>
-  {/* <TextPressure
-    text="Hi! I'm Anil Thakor!"
-    flex={true}
-    alpha={false}
-    stroke={true}
-    width={true}
-    weight={true}
-    italic={true}
-    textColor="#ffffff"
-    strokeColor="yellow"
-    minFontSize={76}
-  /> */}
-  {/* <TextTrail text="Hello World" /> */}
-</div>
             <p style={{ color: "#e8e9eb" }}>
               Motivated Full stack Developer with foundational knowledge in{" "}
               <b>HTML</b>, <b>CSS</b>, <b>Tailwind CSS</b>, <b>Bootstrap</b>, <b>JavaScript</b>, <b>TypeScript</b>,{" "}
@@ -54,14 +34,16 @@ export const Banner = () => {
             </button>
           </Col>
         <Col xs={12} md={6} xl={5} className="d-flex justify-content-center align-items-center" style={{ height: '100%' }}>
-  <div style={{ width: '100%', height: '550px' }}>
-    <Spline scene="https://draft.spline.design/Aiimx99QIH4j9mWE/scene.splinecode" />
-    
-    
+  <div style={{ width: '100%', height: '500px' }}>
+    <Spline scene="https://prod.spline.design/XSlUqIphazDKHPDM/scene.splinecode" />
   </div>
 </Col>
+
         </Row>
       </Container>
     </section>
   );
 };
+
+
+
